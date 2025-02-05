@@ -3,7 +3,7 @@ import uuid
 from firebase_admin import credentials, firestore
 
 # Path to your service account key
-cred = credentials.Certificate("database/mongodb-c9c44-firebase-adminsdk-t0fim-abd6cc14b3.json")
+cred = credentials.Certificate("brukerDatabase\mongodb-c9c44-firebase-adminsdk-t0fim-a13fb32874.json")
 
 # Initialize Firestore
 firebase_admin.initialize_app(cred)
